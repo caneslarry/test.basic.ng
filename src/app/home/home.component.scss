@@ -1,4 +1,6 @@
-
+.selected{
+  background-color: red!important;
+}
 .app-home-component {
     width: calc( 100% - 4rem );
     margin-left: 2rem;
@@ -52,4 +54,36 @@
 .info {
     width: 100%;
     border: 1px dashed lightgray;
+}
+
+.fadeIn {
+  animation: fadeIn ease 20s;
+  -webkit-animation: fadeIn ease 20s;
+  -moz-animation: fadeIn ease 20s;
+  -o-animation: fadeIn ease 20s;
+  -ms-animation: fadeIn ease 20s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
